@@ -1,0 +1,42 @@
+.header{
+    background-image: url(/img/eu_bg.jpg);
+    background-size: cover;
+    background-position: top right;
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.navbar h2{
+    color: var(--text-color);
+    font-size: 35px;
+    cursor: pointer;
+    /* letter-spacing: 1px; */
+}
+
+.navbar h2 span{
+    color: var(--main-color);
+}
+
+.navegacao li{
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.navegacao li a{
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.navegacao li a:hover{
+    color: var(--main-color);
+    transform: scale(1.2);
+}
