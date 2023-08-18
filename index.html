@@ -29,7 +29,7 @@
         <section aria-label="Seção currículo" class="home">
             <div>
                 <h2>Olá, eu sou Matheus Fabião</h2>
-                <h1>Dev Fullstack e Analista de Dados</h1>
+                <h1><span id="element"></span></h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit possimus fugiat ducimus iste voluptatum quia. Saepe doloribus architecto facere! Iusto quia assumenda sit expedita commodi ex dicta ea quibusdam error.</p>
                 <a href="#" class="btn">Download CV</a>
             </div>
@@ -37,5 +37,16 @@
 
     </header><!--header-->
 
+    <!-- Efeito digitando -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+        strings: ['Desenvolvedor Fullstack', 'Analista de Dados'],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true
+    });
+    </script>
 </body>
 </html>

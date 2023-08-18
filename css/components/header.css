@@ -65,7 +65,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    align-items: center;
     gap: 60px;
     padding: 60px;
     padding-left: 8%;
