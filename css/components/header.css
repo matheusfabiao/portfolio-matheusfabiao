@@ -1,5 +1,5 @@
 .header{
-    background-image: url(/img/eu_bg.jpg);
+    background-image: url(/img/eu1.jpg);
     background-size: cover;
     background-position: top right;
     height: 100vh;
@@ -46,6 +46,7 @@
     color: var(--text-color);
     text-decoration: none;
     font-weight: bold;
+    justify-self: start;
     padding: 10px 25px;
     border-radius: 30px;
     transition: transform .4s;
@@ -53,8 +54,50 @@
 
 .btn, #btn a{
     color: var(--text-color);
+    cursor: pointer;
 }
 
 .btn:hover{
     transform: scale(1.2);
 }
+
+.home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.home div{
+    margin-top: 120px;
+    align-self: start;
+    display: grid;
+    gap: 30px;
+}
+
+.home div h2{
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 32px;
+}
+
+.home div h1{
+    color: var(--main-color);
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.home div p{
+    font-weight: 200;
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.home .btn{
+    justify-self: start;
+}
+
