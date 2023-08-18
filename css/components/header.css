@@ -75,7 +75,6 @@
     margin-top: 120px;
     align-self: start;
     display: grid;
-    gap: 30px;
 }
 
 .home div h2{
@@ -98,5 +97,6 @@
 
 .home .btn{
     justify-self: start;
+    margin-top: 17px;
 }
 
